@@ -101,7 +101,7 @@ let opt = {
     filename: 'renvl.dev.pdf',
     image: {type: 'jpeg', quality: 0.98},
     html2canvas: {scale: 4},
-    jsPDF: {unit: 'in', format: 'A4', orientation: 'portrait'}
+    jsPDF: {unit: 'in', format: 'letter', orientation: 'portrait'}
 }
 
 // Function to call areaCv and Html2Pdf options
