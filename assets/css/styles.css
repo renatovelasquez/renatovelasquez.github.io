@@ -26,6 +26,7 @@
     --font-semi-bold: 600;
 
     /*========== Margenes ==========*/
+    --mb-0: .1rem;
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: 1.5rem;
@@ -466,10 +467,19 @@ img {
     margin-right: .75rem;
 }
 
+.tech__stack {
+    color: var(--text-color-light);
+    font-size: var(--smaller-font-size);
+}
 /*========== CERTIFICATES ==========*/
+.certificate__content{
+    margin-top: -.5rem;
+}
 .certificate__title {
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-1);
+}
+.certificate__description {
+    font-size: var(--normal-font-size);
 }
 
 /*========== REFERENCES ==========*/
@@ -595,6 +605,10 @@ img {
     .languages__content {
         grid-template-columns: repeat(3, max-content);
         column-gap: 3.5rem;
+    }
+
+    .languages__container {
+        margin-top: -.5rem;
     }
 
     .interests__container {
