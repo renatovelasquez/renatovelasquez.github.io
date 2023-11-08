@@ -104,11 +104,11 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-    padding: 1.5rem 0 .80rem;
+    padding: 0.6rem 0;
 }
 
 .scale-cv .section-title {
-    margin-bottom: .75rem;
+    margin-bottom: .5rem;
 }
 
 .scale-cv .resume__left, .scale-cv .resume__right {
@@ -166,6 +166,10 @@ body.scale-cv {
 
 .scale-cv .interests__container {
     column-gap: 2.5rem;
+}
+
+.scale-cv p {
+    margin: -0.38px;
 }
 
 body {
