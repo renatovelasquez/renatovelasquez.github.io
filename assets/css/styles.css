@@ -30,6 +30,7 @@
     --mb-1: .5rem;
     --mb-2: 1rem;
     --mb-3: .75rem;
+    --mb-4: 3rem;
 
     /*========== z index ==========*/
     --z-tooltip: 10;
@@ -71,12 +72,12 @@ body.dark-theme {
 
 /*========== Font size variables to scale cv ==========*/
 body.scale-cv {
-    --h1-font-size: .938rem;
-    --h2-font-size: .938rem;
-    --h3-font-size: .875rem;
-    --normal-font-size: .803rem;
-    --small-font-size: .75rem;
-    --smaller-font-size: .688rem;
+    --h1-font-size: .838rem;
+    --h2-font-size: .838rem;
+    --h3-font-size: .775rem;
+    --normal-font-size: .703rem;
+    --small-font-size: .65rem;
+    --smaller-font-size: .588rem;
 }
 
 /*========== Generate PDF button ==========*/
@@ -104,11 +105,13 @@ body.scale-cv {
 }
 
 .scale-cv .section {
-    padding: 0.6rem 0;
+    /*padding: 0.6rem 0;*/
+    padding: 1.2rem 0 .63rem;
 }
 
 .scale-cv .section-title {
-    margin-bottom: .7rem;
+    /*margin-bottom: .92rem;*/
+    margin-bottom: .5rem;
 }
 
 .scale-cv .resume__left, .scale-cv .resume__right {
@@ -118,6 +121,11 @@ body.scale-cv {
 .scale-cv .home__img {
     width: 90px;
     height: 90px;
+}
+
+.scale-cv .home__title {
+    font-size: var(--h1-font-size);
+    margin-top: .3rem;
 }
 
 .scale-cv .home__container {
@@ -166,10 +174,6 @@ body.scale-cv {
 
 .scale-cv .interests__container {
     column-gap: 2.5rem;
-}
-
-.scale-cv p {
-    margin: -0.5px;
 }
 
 body {
@@ -341,7 +345,8 @@ img {
 }
 
 .home__title {
-    font-size: var(--h1-font-size);
+    font-size: var(--h2-font-size);
+    margin-top: var(--mb-4);
 }
 
 .home__profession {
@@ -463,7 +468,7 @@ img {
 .skills__name, .languages__name {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-1);
 }
 
 .skills__circle, .languages__circle {
