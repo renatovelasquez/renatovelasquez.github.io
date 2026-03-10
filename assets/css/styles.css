@@ -20,6 +20,8 @@
     --normal-font-size: .938rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
+    --tiny-font-size: .713rem;
+    --tinier-font-size: .613rem;
 
     /*========== Font weight ==========*/
     --font-medium: 500;
@@ -218,7 +220,7 @@ img {
 }
 
 .section-title {
-    font-size: var(--h2-font-size);
+    font-size: var(--h3-font-size);
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     text-transform: uppercase;
@@ -444,11 +446,11 @@ img {
 }
 
 .education__title, .experience__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .education__studies, .experience__company {
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     color: var(--title-color);
 }
 
@@ -469,6 +471,7 @@ img {
     display: flex;
     align-items: center;
     margin-bottom: var(--mb-1);
+    font-size: 12px;
 }
 
 .idiomas__name {
@@ -488,7 +491,7 @@ img {
 
 .tech__stack {
     color: var(--text-color-light);
-    font-size: var(--smaller-font-size);
+    font-size: var(--tiny-font-size);
 }
 
 .honors__data{
@@ -643,6 +646,7 @@ img {
     }
 
     .experience__description {
+        font-size: var(--smaller-font-size);
         text-align: justify;
     }
 }
